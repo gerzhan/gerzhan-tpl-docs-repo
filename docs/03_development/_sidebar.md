@@ -7,7 +7,7 @@
   - [03.03. Frameworsks & tools](./../03_development/03_03_frameworks_and_tools/README.md)
   - [03.04. Соглашения](./../03_development/03_04_conventions/README.md)
   - [03.05. Техническая документация](./../03_development/03_05_technical_documentation/README.md)
-- [:page_facing_up: 04. В разработке](./04_work_in_progress/README.md)
+- [:page_facing_up: 04. В работе](./04_work_in_progress/README.md)
 - [:page_facing_up: 05. Релизы](./05_release_notes/README.md)
 - [:file_folder: 06. Обслуживание и поддержка](./06_maintenance_and_support/README.md)
 - [:page_facing_up: 07. Документация для пользователей](./07_user_documentation/README.md)
