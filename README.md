@@ -1,6 +1,6 @@
 # Шаблон документации для репозитория
 
-- [gerzhan.github.io/gerzhan-tpl-docs-repo](https://gerzhan.github.io/gerzhan-tpl-docs-repo)
+- [gerzhan.github.io/gerzhan-tpl-docs-repo](https://gerzhan.github.io/gerzhan-tpl-docs-repo/?utm_source=github&utm_medium=organic&utm_campaign=github_readme&utm_content=github_page&utm_term=v0.0.1)
 - [github.com/gerzhan/gerzhan-tpl-docs-repo](https://github.com/gerzhan/gerzhan-tpl-docs-repo)
 
 ## Инструкция
