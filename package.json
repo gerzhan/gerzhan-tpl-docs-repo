@@ -1,6 +1,6 @@
 {
   "name": "gerzhan-tpl-docs-repo",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "[github.com/gerzhan/gerzhan-tpl-docs-repo](https://github.com/gerzhan/gerzhan-tpl-docs-repo)",
   "main": "index.js",
   "directories": {
@@ -13,9 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/gerzhan/gerzhan-tpl-docs-repo.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "documentation"
+  ],
+  "author": "Nikolay Gerzhan <nikolay.gerzhan@yandex.ru>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gerzhan/gerzhan-tpl-docs-repo/issues"
   },
