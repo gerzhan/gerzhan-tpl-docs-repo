@@ -5,8 +5,15 @@
 
 ## Инструкция
 
-- скопируйте директорию `docs` в свой репозиторий
-- замените или удалите в `docs/index.html` блок `Yandex.Metrika counter`
+- скопируйте код репозитория и распакуйте zip-архив
+
+```bash
+# копирование
+$curl -LJO https://github.com/gerzhan/gerzhan-tpl-docs-repo/archive/refs/tags/v0.0.3.zip
+```
+
+- перенесите директорию `docs` в свой репозиторий
+- замените/удалите в `docs/index.html` блок `Yandex.Metrika counter`
 - измените описание документации в конфигурации для `docsify`(window.$docsify) в файле `docs/index.html`
 - установите `docsify` на локальной машине
 
