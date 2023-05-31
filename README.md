@@ -8,11 +8,11 @@
 - скопируйте код репозитория и распакуйте zip-архив
 
 ```bash
-# копирование
-$curl -LJO https://github.com/gerzhan/gerzhan-tpl-docs-repo/archive/refs/tags/v0.0.3.zip
+# копирование текущей версии структуры документации
+$curl -LJO https://github.com/gerzhan/gerzhan-tpl-docs-repo/archive/refs/heads/main.zip
 ```
 
-- перенесите директорию `docs` в свой репозиторий
+- перенесите директорию `docs` в корневую директорию своего репозитория
 - замените/удалите в `docs/index.html` блок `Yandex.Metrika counter`
 - измените описание документации в конфигурации для `docsify`(window.$docsify) в файле `docs/index.html`
 - установите `docsify` на локальной машине
@@ -21,10 +21,17 @@ $curl -LJO https://github.com/gerzhan/gerzhan-tpl-docs-repo/archive/refs/tags/v0
 $npm i docsify-cli -g
 ```
 
-- запустите локальный сервер для просмотр текущей документации
+- добавить в `package.json` команду запуска сервера отображения документации
+
+```diff
+"script": {
++ "docs": "docsify serve ./docs -p 4233",
+```
+
+- запустите локальный сервер для просмотра(формирования) документации
 
 ```bash
-$docsify server ./docs
+$npm run docs
 ```
 
 ## Первоисточники
