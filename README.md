@@ -9,16 +9,21 @@
 
 ```bash
 # копирование текущей версии структуры документации
-$curl -LJO https://github.com/gerzhan/gerzhan-tpl-docs-repo/archive/refs/heads/main.zip
+$curl -LS https://github.com/gerzhan/gerzhan-tpl-docs-repo/archive/refs/heads/main.zip -o docs.zip
+# распаковка только директории с документацией
+$unzip docs.zip 'gerzhan-tpl-docs-repo-main/docs' -d './'
 ```
 
 - перенесите директорию `docs` в корневую директорию своего репозитория
 - замените/удалите в `docs/index.html` блок `Yandex.Metrika counter`
 - измените описание документации в конфигурации для `docsify`(window.$docsify) в файле `docs/index.html`
-- установите `docsify` на локальной машине
+- установите `docsify` на локальной машине глобавльно или добавьте в корневой `package.json`
 
 ```bash
+# установить глобально
 $npm i docsify-cli -g
+# установить локально
+$npm i -D docsify-cli
 ```
 
 - добавить в `package.json` команду запуска сервера отображения документации
@@ -28,10 +33,10 @@ $npm i docsify-cli -g
 + "docs": "docsify serve ./docs -p 4233",
 ```
 
-- запустите локальный сервер для просмотра(формирования) документации
+- запустить локальный сервер для формирования и просмотра документации
 
 ```bash
-$npm run docs
+$npx run docs
 ```
 
 ## Первоисточники
