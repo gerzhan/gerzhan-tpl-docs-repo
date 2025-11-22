@@ -3,6 +3,32 @@
 - [gerzhan.github.io/gerzhan-tpl-docs-repo](https://gerzhan.github.io/gerzhan-tpl-docs-repo/?utm_source=github&utm_medium=organic&utm_campaign=github_readme&utm_content=github_page&utm_term=v0.0.1)
 - [github.com/gerzhan/gerzhan-tpl-docs-repo](https://github.com/gerzhan/gerzhan-tpl-docs-repo)
 
+## Цель 
+
+Унификация описания содержания репозитория
+
+```text
+Структура документации
+
+00 - About
+01 - Roadmap
+02 - Development
+01 - Process
+02 - Getting started
+03 - Frameworks & tools
+04 - Conventions
+05 - Technical documentation
+03 - Work in progress
+04 - Release notes
+05 - Maintenance & Support
+01 - Infrastructure
+02 - Deploy guide
+03 - Technical support
+04 - Accounts
+05 - Who's who
+06 - User documentation
+```
+
 ## Инструкция
 
 ### Копирование шаблона
